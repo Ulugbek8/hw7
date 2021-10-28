@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    position: relative;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    top: 200px;
+}
+
+
+.text1{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    color: white;
+}
+
+.text2 {
+    position: absolute;  
+    left: 50px;
+    top: 150px;
+    color: white;     
+}
+
+.knopka {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    transition: 1s;
+}
+
+.knopka:hover {
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+
+.img {
+    position: absolute;
+    left: 530px;
+    top: -165px;
+}
+
